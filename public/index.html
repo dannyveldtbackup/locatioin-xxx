@@ -16,11 +16,16 @@
       arjs="sourceType: webcam; debugUIEnabled: false;"
     >
       <a-text
-        value="This content will always face you."
+        value="Hello!!"
         look-at="[gps-camera]"
         scale="120 120 120"
         gps-entity-place="latitude: 35.665714; longitude: 139.705518;"
       ></a-text>
+      <a-box
+        material="color: yellow"
+        gps-entity-place="latitude: 35.665357; longitude: 139.705524"
+        position="0 30 0"
+      />
       <a-camera gps-camera rotation-reader> </a-camera>
     </a-scene>
   </body>
